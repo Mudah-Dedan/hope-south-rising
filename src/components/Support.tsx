@@ -101,59 +101,14 @@ const Support = () => {
                   ))}
                 </ul>
 
-                <Button variant={option.buttonVariant} className="w-full" size="lg">
-                  {option.buttonText}
+                <Button variant={option.buttonVariant} className="w-full" size="lg" asChild>
+                  <a href="#contact">{option.buttonText}</a>
                 </Button>
               </CardContent>
             </Card>
           ))}
         </div>
 
-        {/* Impact Levels */}
-        <div className="bg-gradient-subtle rounded-2xl p-8 md:p-12 mb-16">
-          <h3 className="text-2xl md:text-3xl font-bold text-center mb-8 text-foreground">
-            Your Impact in Action
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {impactLevels.map((level, index) => (
-              <Card key={index} className="text-center hover:shadow-medium transition-smooth">
-                <CardContent className="p-6">
-                  <div className="text-2xl font-bold text-primary mb-2">{level.amount}</div>
-                  <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
-                    {level.impact}
-                  </p>
-                  <Badge variant="outline" className="text-xs">
-                    {level.supporters}
-                  </Badge>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-
-        {/* Newsletter Signup */}
-        <div className="bg-background rounded-2xl p-8 md:p-12 shadow-medium">
-          <div className="max-w-2xl mx-auto text-center">
-            <Mail className="w-12 h-12 text-accent mx-auto mb-6" />
-            <h3 className="text-2xl md:text-3xl font-bold mb-4 text-foreground">
-              Stay Connected
-            </h3>
-            <p className="text-muted-foreground mb-8 leading-relaxed">
-              Get updates on our programs, success stories, and ways you can make a difference. 
-              Join our community of changemakers.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-3 rounded-lg border border-input bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
-              />
-              <Button variant="hero" size="lg">
-                Subscribe
-              </Button>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

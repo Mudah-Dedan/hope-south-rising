@@ -39,8 +39,8 @@ const Header = () => {
                 {item.label}
               </a>
             ))}
-            <Button variant="accent" size="sm">
-              Donate Now
+            <Button variant="accent" size="sm" asChild>
+              <a href="#contact">Donate Now</a>
             </Button>
           </nav>
 
@@ -68,8 +68,8 @@ const Header = () => {
                   {item.label}
                 </a>
               ))}
-              <Button variant="accent" size="sm" className="self-start">
-                Donate Now
+              <Button variant="accent" size="sm" className="self-start" asChild>
+                <a href="#contact">Donate Now</a>
               </Button>
             </div>
           </nav>
