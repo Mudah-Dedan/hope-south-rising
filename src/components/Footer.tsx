@@ -21,23 +21,23 @@ const Footer = () => {
   const contactInfo = [
     {
       icon: MapPin,
-      title: "South Sudan Office",
-      details: ["Juba, South Sudan", "Regional Headquarters"]
+      title: "Wau Head Office",
+      details: ["Wau, Western Bahr el Ghazal", "+211 XXX XXX XXX"]
     },
     {
       icon: MapPin,
-      title: "Kenya Office", 
-      details: ["Nairobi, Kenya", "Operations Center"]
+      title: "Juba Office", 
+      details: ["Juba, Central Equatoria", "+211 XXX XXX XXX"]
+    },
+    {
+      icon: MapPin,
+      title: "Aweil Office",
+      details: ["Aweil, Northern Bahr el Ghazal", "+211 XXX XXX XXX"]
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["info@hardsouthsudan.org", "partnerships@hardsouthsudan.org"]
-    },
-    {
-      icon: Phone,
-      title: "Phone",
-      details: ["+211 XXX XXX XXX", "+254 XXX XXX XXX"]
+      details: ["info@hardsouthsudan.org"]
     }
   ];
 
@@ -62,7 +62,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-primary-foreground/80 mb-6 leading-relaxed">
-              Since 1995, we've been empowering communities in South Sudan and Kenya 
+              Since 1995, we've been empowering communities in South Sudan 
               through sustainable development programs that create lasting change.
             </p>
             <div className="flex space-x-3">
@@ -144,7 +144,7 @@ const Footer = () => {
           <div className="flex items-center space-x-2 text-primary-foreground/80">
             <span>Made with</span>
             <Heart className="w-4 h-4 text-accent fill-current" />
-            <span>for communities in South Sudan & Kenya</span>
+            <span>for communities in South Sudan</span>
           </div>
         </div>
       </div>

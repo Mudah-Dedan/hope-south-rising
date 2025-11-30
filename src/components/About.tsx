@@ -62,7 +62,10 @@ const About = () => {
             Hope Agency for Relief and Development
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            HARD is a National South Sudanese NGO (also registered in Kenya) established in 1995 at the height of civil war to support communities in the then Southern Sudan region. From providing humanitarian support to IDPs, we have systematically grown into implementing comprehensive emergency and long-term development programmes.
+            HARD is a National South Sudanese NGO established in 1995 at the height of civil war to support communities in the then Southern Sudan region. From providing humanitarian support to IDPs, we have systematically grown into implementing comprehensive emergency and long-term development programmes.
+          </p>
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto mt-4">
+            <strong>Our Geographic Focus:</strong> We currently operate in Warrap State (Gogrial East, Tonj North) and Western Bahr el Ghazal State, with offices in Wau (Head Office), Juba, and Aweil.
           </p>
         </div>
 

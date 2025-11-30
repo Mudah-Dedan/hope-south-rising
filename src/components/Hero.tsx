@@ -28,7 +28,7 @@ const Hero = () => {
           
           <p className="text-xl md:text-2xl mb-8 text-white/90 leading-relaxed">
             Hope Agency for Relief and Development (HARD) has been transforming lives in South Sudan 
-            and Kenya for over 28 years, fostering self-sufficiency through agriculture, education, and healthcare.
+            for over 28 years, fostering self-sufficiency through agriculture, education, and healthcare.
           </p>
 
           {/* CTA Buttons */}
@@ -54,8 +54,8 @@ const Hero = () => {
               <div className="text-sm text-white/80">Years of Service</div>
             </div>
             <div className="text-center sm:text-left">
-              <div className="text-3xl font-bold text-accent mb-1">2</div>
-              <div className="text-sm text-white/80">Countries</div>
+              <div className="text-3xl font-bold text-accent mb-1">3</div>
+              <div className="text-sm text-white/80">States Covered</div>
             </div>
             <div className="text-center sm:text-left">
               <div className="text-3xl font-bold text-accent mb-1">∞</div>
