@@ -2,7 +2,24 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { Sprout, GraduationCap, Heart, Shield, ArrowRight, Users, Droplet, Clock } from "lucide-react";
+import { Sprout, GraduationCap, Heart, Shield, Clock, Users } from "lucide-react";
+
+// Import program images
+import gess1 from "@/assets/programs/gess-1.jpg";
+import gess2 from "@/assets/programs/gess-2.jpg";
+import gess3 from "@/assets/programs/gess-3.jpg";
+import gfs1 from "@/assets/programs/gfs-1.jpg";
+import gfs2 from "@/assets/programs/gfs-2.jpg";
+import gfs3 from "@/assets/programs/gfs-3.jpg";
+import icsp1 from "@/assets/programs/icsp-1.jpg";
+import icsp2 from "@/assets/programs/icsp-2.jpg";
+import icsp3 from "@/assets/programs/icsp-3.jpg";
+import sadit1 from "@/assets/programs/sadit-1.jpg";
+import sadit2 from "@/assets/programs/sadit-2.jpg";
+import sadit3 from "@/assets/programs/sadit-3.jpg";
+import wahafa1 from "@/assets/programs/wahafa-1.jpg";
+import wahafa2 from "@/assets/programs/wahafa-2.jpg";
+import wahafa3 from "@/assets/programs/wahafa-3.jpg";
 
 const Programs = () => {
   const ongoingPrograms = [
@@ -21,7 +38,8 @@ const Programs = () => {
             "297 primary and 33 secondary schools supported in WBeG",
             "Enhanced teaching quality and school governance",
             "Strengthened education systems with reliable data"
-          ]
+          ],
+          images: [gess1, gess2, gess3]
         },
         {
           name: "Geared for Success (GFS)",
@@ -33,7 +51,8 @@ const Programs = () => {
             "Six CBO partners supported in South Sudan",
             "WASH facilities and learning spaces rehabilitated",
             "Policy influence through Together for Learning campaign"
-          ]
+          ],
+          images: [gfs1, gfs2, gfs3]
         }
       ]
     },
@@ -52,7 +71,8 @@ const Programs = () => {
             "Boreholes rehabilitated with trained water user committees",
             "Agricultural inputs and agro-ecological practices promoted",
             "Community action groups trained for disaster risk management"
-          ]
+          ],
+          images: [icsp1, icsp2, icsp3]
         },
         {
           name: "Welthungerhilfe Anticipatory Action Facility (WAHAFA)",
@@ -64,7 +84,8 @@ const Programs = () => {
             "Draft flood and drought EAPs developed and submitted",
             "Enhanced community-government collaboration",
             "SIMEX multipurpose cash transfer simulation conducted"
-          ]
+          ],
+          images: [wahafa1, wahafa2, wahafa3]
         }
       ]
     },
@@ -83,7 +104,8 @@ const Programs = () => {
             "1,200 pregnant/lactating women supported with cash for nutrition",
             "MUAC screening for children 6-59 months",
             "Survivors connected to psychosocial, legal, and health services"
-          ]
+          ],
+          images: [sadit1, sadit2, sadit3]
         }
       ]
     }
@@ -167,6 +189,24 @@ const Programs = () => {
                         </AccordionTrigger>
                         <AccordionContent className="px-6 pb-6">
                           <div className="space-y-4 pt-2">
+                            {/* Image Gallery */}
+                            {project.images && project.images.length > 0 && (
+                              <div className="mb-6">
+                                <h5 className="font-semibold text-sm text-foreground mb-3">Project Gallery</h5>
+                                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                  {project.images.map((image, imgIndex) => (
+                                    <div key={imgIndex} className="relative overflow-hidden rounded-lg shadow-soft hover:shadow-medium transition-smooth aspect-video">
+                                      <img 
+                                        src={image} 
+                                        alt={`${project.name} - Image ${imgIndex + 1}`}
+                                        className="w-full h-full object-cover"
+                                      />
+                                    </div>
+                                  ))}
+                                </div>
+                              </div>
+                            )}
+
                             <div>
                               <h5 className="font-semibold text-sm text-foreground mb-1">Donors</h5>
                               <p className="text-sm text-muted-foreground">{project.donors}</p>
