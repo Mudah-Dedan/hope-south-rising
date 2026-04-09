@@ -28,7 +28,7 @@ const Hero = () => {
           
           <p className="text-xl md:text-2xl mb-8 text-white/90 leading-relaxed">
             Hope Agency for Relief and Development (HARD) has been transforming lives in South Sudan 
-            for over 28 years, fostering self-sufficiency through agriculture, education, and healthcare.
+            and Kenya for over 28 years, fostering self-sufficiency through agriculture, education, and healthcare.
           </p>
 
           {/* CTA Buttons */}
