@@ -21,23 +21,23 @@ const Footer = () => {
   const contactInfo = [
     {
       icon: MapPin,
-      title: "Wau Head Office",
-      details: ["Wau, Western Bahr el Ghazal", "+211 XXX XXX XXX"]
+      title: "South Sudan Office",
+      details: ["Juba, South Sudan", "Regional Headquarters"]
     },
     {
       icon: MapPin,
-      title: "Juba Office", 
-      details: ["Juba, Central Equatoria", "+211 XXX XXX XXX"]
-    },
-    {
-      icon: MapPin,
-      title: "Aweil Office",
-      details: ["Aweil, Northern Bahr el Ghazal", "+211 XXX XXX XXX"]
+      title: "Kenya Office",
+      details: ["Nairobi, Kenya", "Operations Center"]
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["info@hardsouthsudan.org"]
+      details: ["info@hardsouthsudan.org", "partnerships@hardsouthsudan.org"]
+    },
+    {
+      icon: Phone,
+      title: "Phone",
+      details: ["+211 XXX XXX XXX", "+254 XXX XXX XXX"]
     }
   ];
 
