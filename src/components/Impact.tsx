@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { TrendingUp, Users, MapPin, Calendar, Quote } from "lucide-react";
+import { TrendingUp, Users, MapPin, Calendar } from "lucide-react";
 
 const Impact = () => {
   const stats = [
