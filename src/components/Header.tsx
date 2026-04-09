@@ -12,6 +12,7 @@ const Header = () => {
     { label: "Programs", href: "#programs" },
     { label: "Impact", href: "#impact" },
     { label: "Get Involved", href: "#support" },
+    { label: "Vacancies", href: "/vacancies" },
     { label: "Contact", href: "#contact" },
   ];
 
