@@ -146,7 +146,7 @@ const Programs = () => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             From emergency humanitarian support to long-term development initiatives, 
-            our programs create lasting positive change in communities across South Sudan.
+            our programs are designed to create lasting positive change in communities.
           </p>
         </div>
 
