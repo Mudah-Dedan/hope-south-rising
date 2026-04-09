@@ -54,7 +54,7 @@ const vacancies: Vacancy[] = [
     howToApply: [
       "Submit application letter addressed to the Executive Director, HARD",
       "Include CV, copies of academic certificates, and 3 professional references",
-      "Email to: recruitment@hardsouthsudan.org",
+      "Email to: info@hardsouthsudan.org", "Copy to: wmudah@hardsouthsudan.org; williamdeng@hardsouthsudan.org; philip.otieno@hardsouthsudan.org",
       'Subject line: "Application for Education Coordinator – P2E"',
     ],
   },
@@ -90,7 +90,7 @@ const vacancies: Vacancy[] = [
     howToApply: [
       "Submit application letter addressed to the Executive Director, HARD",
       "Include CV, copies of academic certificates, and 3 professional references",
-      "Email to: recruitment@hardsouthsudan.org",
+      "Email to: info@hardsouthsudan.org", "Copy to: wmudah@hardsouthsudan.org; williamdeng@hardsouthsudan.org; philip.otieno@hardsouthsudan.org",
       'Subject line: "Application for Education Project Officer – P2E"',
     ],
   },
@@ -128,7 +128,7 @@ const vacancies: Vacancy[] = [
     howToApply: [
       "Submit application letter addressed to the Executive Director, HARD",
       "Include CV, copies of academic certificates, and 3 professional references",
-      "Email to: recruitment@hardsouthsudan.org",
+      "Email to: info@hardsouthsudan.org", "Copy to: wmudah@hardsouthsudan.org; williamdeng@hardsouthsudan.org; philip.otieno@hardsouthsudan.org",
       'Subject line: "Application for Livelihoods Project Officer – P2E"',
     ],
   },
@@ -166,7 +166,7 @@ const vacancies: Vacancy[] = [
     howToApply: [
       "Submit application letter addressed to the Executive Director, HARD",
       "Include CV, copies of academic certificates, and 3 professional references",
-      "Email to: recruitment@hardsouthsudan.org",
+      "Email to: info@hardsouthsudan.org", "Copy to: wmudah@hardsouthsudan.org; williamdeng@hardsouthsudan.org; philip.otieno@hardsouthsudan.org",
       'Subject line: "Application for GDI Officer – P2E"',
     ],
   },
@@ -203,7 +203,7 @@ const vacancies: Vacancy[] = [
     howToApply: [
       "Submit application letter addressed to the Executive Director, HARD",
       "Include CV, copies of academic certificates, and 3 professional references",
-      "Email to: recruitment@hardsouthsudan.org",
+      "Email to: info@hardsouthsudan.org", "Copy to: wmudah@hardsouthsudan.org; williamdeng@hardsouthsudan.org; philip.otieno@hardsouthsudan.org",
       'Subject line: "Application for Assistant M&E Officer – P2E"',
     ],
   },
@@ -239,7 +239,7 @@ const vacancies: Vacancy[] = [
     howToApply: [
       "Submit application letter addressed to the Executive Director, HARD",
       "Include CV, copies of academic certificates, and 3 professional references",
-      "Email to: recruitment@hardsouthsudan.org",
+      "Email to: info@hardsouthsudan.org", "Copy to: wmudah@hardsouthsudan.org; williamdeng@hardsouthsudan.org; philip.otieno@hardsouthsudan.org",
       'Subject line: "Application for Accountant – P2E"',
     ],
   },
@@ -277,7 +277,7 @@ const vacancies: Vacancy[] = [
     howToApply: [
       "Submit application letter addressed to the Executive Director, HARD",
       "Include CV, copies of academic certificates, and 3 professional references",
-      "Email to: recruitment@hardsouthsudan.org",
+      "Email to: info@hardsouthsudan.org", "Copy to: wmudah@hardsouthsudan.org; williamdeng@hardsouthsudan.org; philip.otieno@hardsouthsudan.org",
       'Subject line: "Application for Finance Assistant – P2E"',
     ],
   },
@@ -418,7 +418,7 @@ const Vacancies = () => {
           <div className="text-center mt-12 bg-secondary/30 rounded-xl p-8 max-w-4xl mx-auto">
             <h3 className="text-xl font-semibold text-foreground mb-2">General Application Information</h3>
             <p className="text-muted-foreground text-sm">
-              All applications should be submitted to <strong>recruitment@hardsouthsudan.org</strong>. 
+              All applications should be addressed to <strong>info@hardsouthsudan.org</strong> and copied to <strong>wmudah@hardsouthsudan.org</strong>, <strong>williamdeng@hardsouthsudan.org</strong>, and <strong>philip.otieno@hardsouthsudan.org</strong>. 
               Only shortlisted candidates will be contacted. HARD is an equal opportunity employer — 
               qualified women and persons with disabilities are strongly encouraged to apply.
             </p>
