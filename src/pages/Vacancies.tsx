@@ -403,9 +403,7 @@ const Vacancies = () => {
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold text-foreground mb-4">Current Vacancies</h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Join HARD and make a difference in the lives of communities across South Sudan. 
-              All positions are under the <strong>Pathways to Empowerment for Youth (P2E)</strong> project, 
-              funded by the Mastercard Foundation in partnership with War Child Canada.
+              Join HARD and make a difference in the lives of communities across South Sudan.
             </p>
           </div>
 
