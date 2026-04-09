@@ -62,7 +62,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-primary-foreground/80 mb-6 leading-relaxed">
-              Since 1995, we've been empowering communities in South Sudan 
+              Since 1995, we've been empowering communities in South Sudan and Kenya 
               through sustainable development programs that create lasting change.
             </p>
             <div className="flex space-x-3">
