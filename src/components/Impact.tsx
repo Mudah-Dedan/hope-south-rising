@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { TrendingUp, Users, MapPin, Calendar, Quote } from "lucide-react";
+import { TrendingUp, Users, MapPin, Calendar } from "lucide-react";
 
 const Impact = () => {
   const stats = [
@@ -31,26 +31,6 @@ const Impact = () => {
     }
   ];
 
-  const testimonials = [
-    {
-      quote: "HARD helped us transform our farming practices. Now our community can feed itself and even sell surplus crops at the market.",
-      author: "Maria K.",
-      location: "South Sudan",
-      program: "Agricultural Development"
-    },
-    {
-      quote: "Thanks to HARD's education program, my children now have access to quality schooling right in our village.",
-      author: "James M.",
-      location: "Kenya",
-      program: "Education Access"
-    },
-    {
-      quote: "The healthcare training I received through HARD has helped me serve my community better as a health worker.",
-      author: "Sarah N.",
-      location: "South Sudan", 
-      program: "Healthcare Services"
-    }
-  ];
 
   const achievements = [
     "Transitioned from humanitarian aid to sustainable development",
@@ -95,31 +75,6 @@ const Impact = () => {
           ))}
         </div>
 
-        {/* Testimonials */}
-        <div className="mb-16">
-          <h3 className="text-3xl font-bold text-center mb-12 text-foreground">
-            Stories from the Community
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <Card key={index} className="relative overflow-hidden hover:shadow-medium transition-smooth">
-                <CardContent className="p-6">
-                  <Quote className="w-8 h-8 text-accent mb-4" />
-                  <p className="text-muted-foreground mb-6 leading-relaxed italic">
-                    "{testimonial.quote}"
-                  </p>
-                  <div className="border-t border-border pt-4">
-                    <div className="font-semibold text-foreground">{testimonial.author}</div>
-                    <div className="text-sm text-muted-foreground">{testimonial.location}</div>
-                    <Badge variant="outline" className="mt-2 text-xs">
-                      {testimonial.program}
-                    </Badge>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
 
         {/* Key Achievements */}
         <div className="bg-background rounded-2xl p-8 md:p-12 shadow-medium">
