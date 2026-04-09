@@ -75,31 +75,6 @@ const Impact = () => {
           ))}
         </div>
 
-        {/* Testimonials */}
-        <div className="mb-16">
-          <h3 className="text-3xl font-bold text-center mb-12 text-foreground">
-            Stories from the Community
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <Card key={index} className="relative overflow-hidden hover:shadow-medium transition-smooth">
-                <CardContent className="p-6">
-                  <Quote className="w-8 h-8 text-accent mb-4" />
-                  <p className="text-muted-foreground mb-6 leading-relaxed italic">
-                    "{testimonial.quote}"
-                  </p>
-                  <div className="border-t border-border pt-4">
-                    <div className="font-semibold text-foreground">{testimonial.author}</div>
-                    <div className="text-sm text-muted-foreground">{testimonial.location}</div>
-                    <Badge variant="outline" className="mt-2 text-xs">
-                      {testimonial.program}
-                    </Badge>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
 
         {/* Key Achievements */}
         <div className="bg-background rounded-2xl p-8 md:p-12 shadow-medium">
