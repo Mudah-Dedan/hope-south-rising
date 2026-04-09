@@ -54,8 +54,8 @@ const Hero = () => {
               <div className="text-sm text-white/80">Years of Service</div>
             </div>
             <div className="text-center sm:text-left">
-              <div className="text-3xl font-bold text-accent mb-1">3</div>
-              <div className="text-sm text-white/80">States Covered</div>
+              <div className="text-3xl font-bold text-accent mb-1">2</div>
+              <div className="text-sm text-white/80">Countries</div>
             </div>
             <div className="text-center sm:text-left">
               <div className="text-3xl font-bold text-accent mb-1">∞</div>

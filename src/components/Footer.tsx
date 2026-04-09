@@ -144,7 +144,7 @@ const Footer = () => {
           <div className="flex items-center space-x-2 text-primary-foreground/80">
             <span>Made with</span>
             <Heart className="w-4 h-4 text-accent fill-current" />
-            <span>for communities in South Sudan</span>
+            <span>for communities in South Sudan & Kenya</span>
           </div>
         </div>
       </div>
