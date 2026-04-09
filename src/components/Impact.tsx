@@ -31,26 +31,6 @@ const Impact = () => {
     }
   ];
 
-  const testimonials = [
-    {
-      quote: "HARD helped us transform our farming practices. Now our community can feed itself and even sell surplus crops at the market.",
-      author: "Maria K.",
-      location: "South Sudan",
-      program: "Agricultural Development"
-    },
-    {
-      quote: "Thanks to HARD's education program, my children now have access to quality schooling right in our village.",
-      author: "James M.",
-      location: "Kenya",
-      program: "Education Access"
-    },
-    {
-      quote: "The healthcare training I received through HARD has helped me serve my community better as a health worker.",
-      author: "Sarah N.",
-      location: "South Sudan", 
-      program: "Healthcare Services"
-    }
-  ];
 
   const achievements = [
     "Transitioned from humanitarian aid to sustainable development",
