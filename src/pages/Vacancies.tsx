@@ -339,7 +339,7 @@ const Vacancies = () => {
           <div className="text-center mt-12 bg-secondary/30 rounded-xl p-8 max-w-4xl mx-auto">
             <h3 className="text-xl font-semibold text-foreground mb-2">General Application Information</h3>
             <p className="text-muted-foreground text-sm">
-              All applications should be addressed to <strong>info@hardsouthsudan.org</strong> and copied to <strong>wmudah@hardsouthsudan.org</strong>, <strong>williamdeng@hardsouthsudan.org</strong>, and <strong>philip.otieno@hardsouthsudan.org</strong>. 
+              All applications should be addressed to <strong>info@hardsouthsudan.org</strong> and copied to <strong>andreaamet@hardsouthsudan.org</strong>, <strong>wmudah@hardsouthsudan.org</strong>, <strong>oscarodhiambo@hardsouthsudan.org</strong>, and <strong>williamdeng@hardsouthsudan.org</strong>.
               Only shortlisted candidates will be contacted. HARD is an equal opportunity employer — 
               qualified women and persons with disabilities are strongly encouraged to apply.
             </p>
